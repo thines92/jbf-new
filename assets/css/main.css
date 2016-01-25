@@ -61,7 +61,8 @@ img {
   max-width: 100%; }
 
 section {
-  padding: 80px; }
+  padding-top: 110px;
+  padding-bottom: 80px; }
 
 .feature-image {
   background: url("../images/hero-bg.jpg") no-repeat center center fixed;
@@ -155,10 +156,6 @@ section {
   background: white; }
 
 /* ===== How We Started ===== */
-#how-started .feature-image h1 {
-  color: white;
-  text-align: center; }
-
 #how-started .section-header img {
   width: 25%;
   max-height: 200px; }
@@ -171,6 +168,23 @@ section {
   padding-top: 0; }
   #what-done .scholarship-text {
     margin-top: 30px; }
+
+/* ===== DONATIONS ====== */
+#donations .contact {
+  background-color: #3e4249;
+  padding: 20px;
+  color: white;
+  border-radius: 5px; }
+
+#donate-form {
+  text-align: center; }
+  #donate-form input[type=submit] {
+    margin-top: 20px;
+    margin: 0, 10px; }
+  #donate-form input[type=radio] {
+    margin-left: 10px; }
+  #donate-form input[type=radio]:first-child {
+    margin-left: 0; }
 
 /* ==== FOOTER ==== */
 footer {

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="content-Type" content="text/html;charset=UTF-8">
+		<meta charset="utf=8">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<title>Home | Jared Barrows Foundation</title>
+
+		<!-- Bootstrap Core CSS -->
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+		<!-- Font Awesome Icons -->
+		<link rel="stylesheet" href="assets/css/font-awesome/css/font-awesome.min.css">
+
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="assets/css/main.css">
+
+		<!-- Google Fonts -->
+		<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
+
+	</head>
+	<body>
+		<!-- ==== HEADER ==== -->
+		<header class="site-header">
+			
+			<!-- NAVBAR -->
+			<div class="navbar-wrapper">
+				
+				<div class="navbar navbar-inverse navbar-fixed-top">
+					
+					<div class="container">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<a href="/" class="navbar-brand"><img src="assets/images/logo.png" alt="Jared Barrows Foundation"></a>
+						</div><!--navbar-->
+
+						<div class="navbar-collapse collapse">
+							<ul class="nav navbar-nav navbar-right">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="about.html">About Us</a></li>
+								<li><a href="donate.html">Donate</a></li>
+								<li class="active"><a href="contact.html">Contact Us</a></li>
+							</ul><!-- nav -->
+						</div><!-- navbar -->
+					</div><!-- container-->
+
+				</div><!-- navbar wrapper -->
+
+			</div><!-- navbar-wrapper -->
+
+		</header><!-- site-header -->
+
+		<section class="feature-image">
+			<h1 class="page-title">Contact Us</h1>
+		</section>
+
+		<section class="contact-form">
+			<form class="form-horizontal" role="form" method="post" action="index.php">
+			    <div class="form-group">
+			        <label for="name" class="col-sm-2 control-label">Name</label>
+			        <div class="col-sm-10">
+			            <input type="text" class="form-control" id="name" name="name" placeholder="First and Last Name" value="<?php echo htmlspecialchars($_POST['name']); ?>">
+			            <?php echo "<p class='text-danger'>$errName</p>";?>
+			        </div>
+			    </div>
+			    <div class="form-group">
+			        <label for="email" class="col-sm-2 control-label">Email</label>
+			        <div class="col-sm-10">
+			            <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="<?php echo htmlspecialchars($_POST['email']); ?>">
+			            <?php echo "<p class='text-danger'>$errEmail</p>";?>
+			        </div>
+			    </div>
+			    <div class="form-group">
+			        <label for="message" class="col-sm-2 control-label">Message</label>
+			        <div class="col-sm-10">
+			            <textarea class="form-control" rows="4" name="message"><?php echo htmlspecialchars($_POST['message']);?></textarea>
+			            <?php echo "<p class='text-danger'>$errMessage</p>";?>
+			        </div>
+			    </div>
+			    <div class="form-group">
+			        <label for="human" class="col-sm-2 control-label">2 + 3 = ?</label>
+			        <div class="col-sm-10">
+			            <input type="text" class="form-control" id="human" name="human" placeholder="Your Answer" />
+			            <?php echo "<p class='text-danger'>$errHuman</p>";?>
+			        </div>
+			    </div>
+			    <div class="form-group">
+			        <div class="col-sm-10 col-sm-offset-2">
+			            <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+			        </div>
+			    </div>
+			    <div class="form-group">
+			        <div class="col-sm-10 col-sm-offset-2">
+			            <?php echo $result; ?>    
+			        </div>
+			    </div>
+			</form> 
+		</section>
+
+
+		<!-- ===== FOOTER =====-->
+		<footer>
+			<div class="container">
+				<div class="row">
+					
+					<div class="col-sm-3">
+						<a href="/"><img src="assets/images/logo.png" alt="Jared Barrows Foundation"></a>
+					</div>
+
+					<div class="col-sm-6">
+						<nav>
+							<ul class="list-unstyled list-inline">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="about.html">About Us</a></li>
+								<li><a href="donate.html">Donate</a></li>
+								<li><a href="contact.html">Contact Us</a></li>
+							</ul><!-- ul -->
+						</nav><!-- nav -->
+					</div><!-- col -->
+
+					<div class="col-sm-3">
+						<p class="pull-right">&copy; 2016 Tyler Hines</p>
+					</div>
+
+				</div>
+			</div><!-- container -->
+		</footer>
+
+
+	<!-- BOOTSTRAP CORE JAVASCRIPT
+			 Placed at the end of the document so the pages load faster! -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+
+		<script src="assets/js/global.js"></script>
+		<?php include 'global.php';?>
+	</body>
+</html>
