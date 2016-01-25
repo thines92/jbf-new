@@ -66,7 +66,15 @@ section {
 .feature-image {
   background: url("../images/hero-bg.jpg") no-repeat center center fixed;
   background-size: cover;
-  min-height: 200px; }
+  min-height: 200px;
+  color: white;
+  text-align: center; }
+
+.carousel-inner .item img {
+  width: 100%; }
+.carousel-inner .item .carousel-caption {
+  font-size: 14px;
+  background-color: rgba(0, 0, 0, 0.6); }
 
 /* === HERO === */
 #hero {
@@ -146,16 +154,23 @@ section {
 #help {
   background: white; }
 
-/* ===== ABOUT US ===== */
-.feature-image h1 {
+/* ===== How We Started ===== */
+#how-started .feature-image h1 {
   color: white;
   text-align: center; }
 
-.section-header img {
-  width: 25%; }
+#how-started .section-header img {
+  width: 25%;
+  max-height: 200px; }
 
-.section-header h3 {
+#how-started .section-header h3 {
   text-align: center; }
+
+/* ===== What We've Done ===== */
+#what-done {
+  padding-top: 0; }
+  #what-done .scholarship-text {
+    margin-top: 30px; }
 
 /* ==== FOOTER ==== */
 footer {
