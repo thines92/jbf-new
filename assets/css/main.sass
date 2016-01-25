@@ -1,0 +1,161 @@
+$primaryColor: #dd5638
+$secondaryColor: #3e4249
+$thirdColor: #79b044
+
+$maintext: 'Lato', sans-serif
+$bodyText: 'Playfair Display', serif
+
+
+/* === GENERAL === */
+
+body
+	margin-top: 50px
+	font-family: $maintext
+	font-size: 16px
+	background: url(../images/concrete_seamless.png) top left repeat
+
+/* === GLOBAL === */
+
+h1, h2, h3, h4, h5, h6
+	-webkit-font-smoothing: antialiased
+	text-rendering: optimizelegibility
+	font-weight: bold
+	font-family: $maintext
+h1 
+	font-size: 3em
+
+h1,h2 
+	margin: 0 0 40px
+
+h3 
+	margin: 20px 0
+
+h4 
+	font-size: 18px
+p 
+	margin: 0 0 15px
+p.lead
+	font-weight: normal
+a
+	text-decoration: none
+	color: $primaryColor
+a:hover, a:focus
+	text-decoration: none
+	color: darken($primaryColor, 20%)
+i.fa
+	color: $primaryColor
+button, input, .btn, a.btn 
+	-webkit-font-smoothing: antialiased
+	text-rendering: optimizelegibility
+	color: white
+.btn
+	font-weight: bold
+.btn-danger
+	background-color: $primaryColor
+	border-color: $primaryColor
+.btn-danger:hover, .btn-danger:focus
+	background-color: darken($primaryColor, 20%)
+	border-color: darken($primaryColor, 20%)
+img
+	max-width: 100%
+section
+	padding: 80px
+.feature-image
+	background: url('../images/hero-bg.jpg') no-repeat center center fixed
+	background-size: cover
+	min-height: 200px
+
+
+/* === HERO === */
+
+#hero
+	background: url('../images/hero-bg.jpg') no-repeat center fixed
+	background-size: cover
+	min-height: 500px
+	color: white
+#hero .background
+	background: rgb(255,255,255)
+#hero img
+	width: 75%
+	margin-top: 85px
+#hero .lead
+	text-align: center
+	margin-top: 105px
+#hero .btn
+	text-align: center
+	margin-top: 20px
+#hero .btn-text
+	text-align: center
+
+/* === Who We Are === */
+
+#who-we-are .section-header
+	text-align: center
+	margin-top: 40px
+#who-we-are p
+	text-align: center
+
+/* === What We Do === */
+
+#what-we-do
+	background: white
+#what-we-do .section-title , .section-header , p
+	text-align: center
+#what-we-do .section-title
+	margin-top: 30px
+
+/* ==== What We've Done ==== */
+
+#done
+	background: $secondaryColor
+	color: white
+#done .num
+	display: table
+	font-size: 30px
+	font-weight: bold
+	color: white
+	line-height: 24px
+	margin-top: 60px
+	height: 140px
+	width: 140px
+	margin-top: 15px
+	text-align: center
+	-webkit-font-rendering: antialiased
+	text-rendering: optimizelegibility
+	border-radius: 100%
+	background: $primaryColor
+#done .num-content
+	display: table-cell
+	vertical-align: middle
+#done .num span 
+	display: block
+	font-size: 20px
+	font-weight: normal
+	padding-top: 5px
+
+/* ==== Want to Help ==== */
+
+#help
+	background: white
+
+/* ===== ABOUT US ===== */
+
+.feature-image h1
+	color: white
+	text-align: center
+.section-header img
+	width: 25%
+.section-header h3
+	text-align: center
+
+/* ==== FOOTER ==== */
+
+footer
+	background-color: $secondaryColor
+	color: white
+footer p, footer img
+	margin-top: 12px
+nav
+	margin-top: 7px
+nav ul li, footer p
+	font-size: 12px
