@@ -62,12 +62,12 @@ section
 	padding-top: 50px
 	padding-bottom: 80px
 .feature-image
-	background: url('../images/forest-road.jpg') no-repeat 0 fixed
-	background-size: cover
-	padding-top: 110px
-	min-height: 200px
+	padding-top: 160px
+	min-height: 400px
 	color: $secondaryColor
 	text-align: center
+.footer-image
+	min-height: 250px
 .carousel-inner
 	.item
 		img
@@ -75,13 +75,16 @@ section
 		.carousel-caption
 			font-size: 14px
 			background-color: rgba(0,0,0,.6)
+.parallax-window
+	min-height: 400px
+	background: transparent
 
 
 /* === HERO === */
 
 #hero
-	background: url('../images/sky-heart.jpg') no-repeat center fixed
-	background-size: cover
+	// background: url('../images/sky-heart.jpg') no-repeat center fixed
+	// background-size: cover
 	min-height: 500px
 	color: white
 #hero .background
@@ -123,8 +126,9 @@ section
 /* ==== What We've Done ==== */
 
 #done
-	background: $secondaryColor
 	color: white
+#done .done-image
+	min-height: 200px
 #done .num
 	display: table
 	font-size: 30px
@@ -205,3 +209,4 @@ nav ul li, footer p
 		font-size: 24px
 	#done .num-content span
 		font-size: 14px
+@media screen and (max-width: 761px)

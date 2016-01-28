@@ -1,7 +1,8 @@
-		<?php include "templates/header.php" ?>
+<?php include "assets/php/index.php"; ?>
+<?php include "templates/header.php" ?>
 		
 		<!-- ===== HERO ===== -->
-		<section id="hero">
+		<section id="hero" class="parallax-window" data-parallax="scroll" data-image-src="assets/images/sky-heart.jpg">
 
 			<article class="container clearfix">
 				<div class="row">
@@ -85,7 +86,7 @@
 
 
 		<!-- ===== What We've Done ====== -->
-		<section id="done">
+		<section id="done" class="done-image" class="parallax-window" data-parallax="scroll" data-image-src="assets/images/forest-road.jpg">
 			<article class="container">
 				<div class="row">
 

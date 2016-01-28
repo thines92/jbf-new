@@ -65,12 +65,13 @@ section {
   padding-bottom: 80px; }
 
 .feature-image {
-  background: url("../images/forest-road.jpg") no-repeat 0 fixed;
-  background-size: cover;
-  padding-top: 110px;
-  min-height: 200px;
+  padding-top: 160px;
+  min-height: 400px;
   color: #3e4249;
   text-align: center; }
+
+.footer-image {
+  min-height: 250px; }
 
 .carousel-inner .item img {
   width: 100%; }
@@ -78,10 +79,12 @@ section {
   font-size: 14px;
   background-color: rgba(0, 0, 0, 0.6); }
 
+.parallax-window {
+  min-height: 400px;
+  background: transparent; }
+
 /* === HERO === */
 #hero {
-  background: url("../images/sky-heart.jpg") no-repeat center fixed;
-  background-size: cover;
   min-height: 500px;
   color: white; }
 
@@ -129,8 +132,10 @@ section {
 
 /* ==== What We've Done ==== */
 #done {
-  background: #3e4249;
   color: white; }
+
+#done .done-image {
+  min-height: 200px; }
 
 #done .num {
   display: table;
