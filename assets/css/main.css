@@ -79,6 +79,10 @@ section {
   font-size: 14px;
   background-color: rgba(0, 0, 0, 0.6); }
 
+.carousel-indicators .active {
+  background-color: black;
+  border: 1px solid black; }
+
 .parallax-window {
   min-height: 400px;
   background: transparent; }

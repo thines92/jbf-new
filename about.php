@@ -43,7 +43,15 @@
 						</div><!-- section-header -->
 					</div><!-- end col -->
 
-					<div class="col-xs-6 col-xs-offset-3">
+					<div class="col-xs-8 col-xs-offset-2">
+
+						 <p>When we saw the condition of the Marshfield basketball courts adjacent to the Marshfield High School, we decided
+						 to make it our first project. The courts are used daily by the local community and after many years of use there was significant
+						 wear and tear resulting in severe cracks. The cracks were sizable and had become a safety concern and forced the
+						 children's summer program to be relocated.</p>
+
+						 <p>Several companies donated their equipment and material to help make this project happen and with your help we hope
+						 to continue to create a wonderful, fun and safe environment for the community to enjoy.</p>
 
 						<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 							<!-- Indicators -->
@@ -58,17 +66,11 @@
 								<!-- SLIDE ONE -->
 								<div class="item active">
 									<img src="assets/images/court-before.jpg" alt="Basketball Court">
-									<div class="carousel-caption">
-									The first project we completed was renovating the Marshfield basketball courts.
-									</div>
 								</div><!-- slide one -->
 
 								<!-- SLIDE TWO -->
 								<div class="item">
 									<img src="assets/images/court-after.jpg" alt="...">
-									<div class="carousel-caption">
-								    	...
-									</div>
 								</div><!-- slide two -->
 							</div>
 
@@ -85,7 +87,7 @@
 						</div><!-- carousel container -->
 					</div><!-- end col -->
 
-					<div class="col-xs-6 col-xs-offset-3">
+					<div class="col-xs-8 col-xs-offset-2">
 						<p class="scholarship-text">In addition to helping with projects in the Marshfield community, the Jared Barrows Foundation also gives out scholarships to graduating seniors on their way to college.</p>
 
 						<p>To date, we are proud to say we have helped 9 seniors pay for college. We want to see this number grow so we are committed to giving out a scholarship every year to a deserving senior.</p>

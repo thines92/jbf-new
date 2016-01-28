@@ -3,7 +3,7 @@
 			<div class="container">
 				<div class="row">
 					
-					<div class="col-sm-3 col-xs-6 col-xs-offset-4 col-sm-offset-0">
+					<div class="col-sm-3 col-xs-6 col-xs-offset-3 col-sm-offset-0">
 						<a href="/"><img class="footer-logo" src="assets/images/logo.png" alt="Jared Barrows Foundation"></a>
 					</div>
 
@@ -30,8 +30,7 @@
 	<!-- BOOTSTRAP CORE JAVASCRIPT
 			 Placed at the end of the document so the pages load faster! -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="build/build.min.js"></script>
 
-		<script src="assets/js/parallax.min.js"></script>
 	</body>
 </html>
