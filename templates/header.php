@@ -44,10 +44,10 @@
 
 						<div class="navbar-collapse collapse">
 							<ul class="nav navbar-nav navbar-right">
-								<li class="active"><a href="index.html">Home</a></li>
-								<li><a href="about.html">About Us</a></li>
-								<li><a href="donate.html">Donate</a></li>
-								<li><a href="contact.php">Contact Us</a></li>
+								<li class="<?php if ($first_part=="") echo "active" ?>"><a href="index.html">Home</a></li>
+								<li class="<?php if ($first_part=="about") echo "active" ?>"><a href="about.html">About Us</a></li>
+								<li class="<?php if ($first_part=="donate") echo "active" ?>"><a href="donate.html">Donate</a></li>
+								<li class="<?php if ($first_part=="contact") echo "active" ?>"><a href="contact.php">Contact Us</a></li>
 							</ul><!-- nav -->
 						</div><!-- navbar -->
 					</div><!-- container-->
