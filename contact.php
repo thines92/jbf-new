@@ -31,7 +31,7 @@
 						<textarea class="form-control" name="comment"><?php echo $_POST['comment']; ?></textarea>
 					</div>
 
-					<input type="submit" name="submit" class="btn btn-success btn-lg" value="Submit" />
+					<input type="submit" name="submit" class="btn btn-danger btn-lg" value="Submit" />
 
 				</form>
 			</div>

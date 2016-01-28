@@ -7,7 +7,7 @@
 						<a href="/"><img class="footer-logo" src="assets/images/logo.png" alt="Jared Barrows Foundation"></a>
 					</div>
 
-					<div class="col-xs-6">
+					<div class="col-xs-7">
 						<nav>
 							<ul class="list-unstyled list-inline">
 								<li><a href="index.html">Home</a></li>
@@ -18,7 +18,7 @@
 						</nav><!-- nav -->
 					</div><!-- col -->
 
-					<div class="col-xs-3 pull-right">
+					<div class="col-xs-4 pull-right">
 						<p>&copy; 2016 Tyler Hines</p>
 					</div>
 

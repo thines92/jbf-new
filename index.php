@@ -95,7 +95,7 @@
 					<h3>What We've Done So Far</h3>
 				</div>
 
-				<div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+				<div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
 						
 						<div class="col-xs-4">
 							<div class="num">

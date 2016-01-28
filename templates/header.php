@@ -15,7 +15,7 @@
 		<link rel="stylesheet" href="assets/css/font-awesome/css/font-awesome.min.css">
 
 		<!-- Custom CSS -->
-		<link rel="stylesheet" href="build/main.min.css">
+		<link rel="stylesheet" href="assets/css/main.css">
 
 		<!-- Google Fonts -->
 		<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
