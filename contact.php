@@ -54,11 +54,10 @@
 
 		<section class="contact-form clearfix">
 			<div class="col-md-6 col-md-offset-3 emailForm">
-				<h1>My email form</h1>
 
 				<?php echo $result; ?>
 
-				<p class="lead">Please get in touch - I'll get back to you as soon as I can.</p>
+				<p class="lead">Please get in touch and we will get back to you as soon as possible!</p>
 
 				<form method="post">
 
@@ -91,7 +90,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-3">
-						<a href="/"><img src="assets/images/logo.png" alt="Jared Barrows Foundation"></a>
+						<a href="/"><img class="footer-logo" src="assets/images/logo.png" alt="Jared Barrows Foundation"></a>
 					</div>
 					<div class="col-sm-6">
 						<nav>

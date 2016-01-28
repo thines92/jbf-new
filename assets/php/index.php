@@ -34,7 +34,7 @@ if ($_POST["submit"]) {
 
 	} else {
 
-		if (mail("tylerhines1992@gmail.com", "Comment from website!", "Name: ".
+		if (mail("jpxbarrows@yahoo.com", "Message from website!", "Name: ".
 		$_POST['name']."
 
 		Email: ".$_POST['email']."

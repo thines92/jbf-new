@@ -62,11 +62,11 @@ section
 	padding-top: 50px
 	padding-bottom: 80px
 .feature-image
-	background: url('../images/hero-bg.jpg') no-repeat center center fixed
+	background: url('../images/forest-road.jpg') no-repeat 0 fixed
 	background-size: cover
 	padding-top: 110px
 	min-height: 200px
-	color: white
+	color: $secondaryColor
 	text-align: center
 .carousel-inner
 	.item
@@ -80,7 +80,7 @@ section
 /* === HERO === */
 
 #hero
-	background: url('../images/hero-bg.jpg') no-repeat center fixed
+	background: url('../images/sky-heart.jpg') no-repeat center fixed
 	background-size: cover
 	min-height: 500px
 	color: white
@@ -92,6 +92,9 @@ section
 #hero .lead
 	text-align: center
 	margin-top: 105px
+	background: rgba(0,0,0,.5)
+	border-radius: 5px
+	padding: 10px
 #hero .btn
 	text-align: center
 	margin-top: 20px
@@ -192,3 +195,13 @@ nav
 	margin-top: 7px
 nav ul li, footer p
 	font-size: 12px
+
+
+/* ======= MEDIA QUERIES ====== */
+@media screen and (max-width: 589px)
+	#done .num
+		height: 120px
+		width: 120px
+		font-size: 24px
+	#done .num-content span
+		font-size: 14px
