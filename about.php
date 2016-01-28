@@ -50,7 +50,6 @@
 							<ol class="carousel-indicators">
 								<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
 								<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-								<li data-target="#carousel-example-generic" data-slide-to="2"></li>
 							</ol>
 
 							<!-- Wrapper for slides -->
@@ -58,7 +57,7 @@
 
 								<!-- SLIDE ONE -->
 								<div class="item active">
-									<img src="assets/images/court1.png" alt="Basketball Court">
+									<img src="assets/images/court-before.jpg" alt="Basketball Court">
 									<div class="carousel-caption">
 									The first project we completed was renovating the Marshfield basketball courts.
 									</div>
@@ -66,7 +65,7 @@
 
 								<!-- SLIDE TWO -->
 								<div class="item">
-									<img src="assets/images/court1.png" alt="...">
+									<img src="assets/images/court-after.jpg" alt="...">
 									<div class="carousel-caption">
 								    	...
 									</div>
@@ -86,7 +85,7 @@
 						</div><!-- carousel container -->
 					</div><!-- end col -->
 
-					<div class="col-sm-6 col-sm-offset-3">
+					<div class="col-xs-6 col-xs-offset-3">
 						<p class="scholarship-text">In addition to helping with projects in the Marshfield community, the Jared Barrows Foundation also gives out scholarships to graduating seniors on their way to college.</p>
 
 						<p>To date, we are proud to say we have helped 9 seniors pay for college. We want to see this number grow so we are committed to giving out a scholarship every year to a deserving senior.</p>

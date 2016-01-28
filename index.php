@@ -86,7 +86,7 @@
 
 
 		<!-- ===== What We've Done ====== -->
-		<section id="done" class="done-image" class="parallax-window" data-parallax="scroll" data-image-src="assets/images/forest-road.jpg">
+		<section id="done" class="done-image" class="parallax-window" data-parallax="scroll" data-image-src="assets/images/ocean-view.jpg">
 			<article class="container">
 				<div class="row">
 
