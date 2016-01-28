@@ -40,7 +40,7 @@
 								<li><a href="index.html">Home</a></li>
 								<li><a href="about.html">About Us</a></li>
 								<li><a href="donate.html">Donate</a></li>
-								<li class="active"><a href="contact.html">Contact Us</a></li>
+								<li class="active"><a href="contact.php">Contact Us</a></li>
 							</ul><!-- nav -->
 						</div><!-- navbar -->
 					</div><!-- container-->

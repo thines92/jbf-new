@@ -61,12 +61,13 @@ img {
   max-width: 100%; }
 
 section {
-  padding-top: 110px;
+  padding-top: 50px;
   padding-bottom: 80px; }
 
 .feature-image {
   background: url("../images/hero-bg.jpg") no-repeat center center fixed;
   background-size: cover;
+  padding-top: 110px;
   min-height: 200px;
   color: white;
   text-align: center; }
@@ -100,6 +101,9 @@ section {
   margin-top: 20px; }
 
 #hero .btn-text {
+  text-align: center; }
+
+#home-donate {
   text-align: center; }
 
 /* === Who We Are === */
@@ -170,17 +174,11 @@ section {
     margin-top: 30px; }
 
 /* ===== DONATIONS ====== */
-#donations .contact {
-  background-color: #3e4249;
+#donate-form {
   padding: 20px;
   color: white;
-  border-radius: 5px; }
-
-#donate-form {
+  border-radius: 5px;
   text-align: center; }
-  #donate-form input[type=submit] {
-    margin-top: 20px;
-    margin: 0, 10px; }
   #donate-form input[type=radio] {
     margin-left: 10px; }
   #donate-form input[type=radio]:first-child {
