@@ -7,7 +7,7 @@
 						<a href="/"><img class="footer-logo" src="assets/images/logo.png" alt="Jared Barrows Foundation"></a>
 					</div>
 
-					<div class="col-xs-7">
+					<div class="col-xs-7 col-sm-5">
 						<nav>
 							<ul class="list-unstyled list-inline">
 								<li><a href="index.html">Home</a></li>

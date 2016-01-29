@@ -64,7 +64,7 @@
 							<h4>Rebuild</h4>
 						</div><!-- section-title -->
 
-						<p>Our first major project was helping to rebuild the Marshfield basketball courts. We had this idea because the couts were extremely worn down from use and made it very difficult people to use them. With the help of our incredible donators, we were able to rebuild the courts into what they are today. <a href="#">learn more &raquo;</a></p>
+						<p>Our first major project was helping to rebuild the Marshfield basketball courts. We had this idea because the courts were extremely worn down from use and made it very difficult people to use them. With the help of our incredible donators, we were able to rebuild the courts into what they are today. <a href="#">learn more &raquo;</a></p>
 					</div><!-- end-col -->
 
 					<div class="col-sm-5">
